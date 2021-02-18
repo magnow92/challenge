@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+}
+
+*, html {
+	margin:0;
+	padding:0;  
+}
+
+.top-container {
+	background: url("../images/desktop/image-hero.jpg") no-repeat;
+	height: 600px;
+	width: 100%;
+	background-color: blue;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.haslo{
+	position: absolute;
+	bottom: 80px;
+	left: 100px;
+}
+
+.haslo p{
+	color: white;
+	font-size: 5rem;
+	font-family: Quicksand;
+	width: 50%;
+	border: solid white;
+	padding: 20px 40px;
+}
+
+.top-container p{
+	color: white;
+}
+
+.menu {
+	font-family: Quicksand;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+/* 	position: absolute; */
+	padding: 15px;
+/* 	text-decoration:none; */
+	margin-top: 10px;
+}
+
+.menu-set {
+	position:absolute;
+	top: 50px;
+	right: 50px;
+}
+
+.menu-set a {
+	position: relative;
+	text-decoration:none;
+}
+
+a:hover:after{
+      content: '';
+      position:absolute;
+      bottom:0;
+      left: 30%;
+      right: 30%;
+      height: 2px;
+      background:white;
+      display:block;
+}
+
+.middle-container{
+	margin-top: 100px;
+	margin-left:100px;
+	position:relative;
+	height:700px;
+}
+
+.text {
+	position: absolute;
+	background-color: white;
+	bottom: 0px;
+	right: 250px;
+	width: 50%;
+}
+
+.middle-container p{
+	color: #40514E;
+	font-family: Quicksand;
+	font-size: 2rem;
+	padding: 100px;
+}
+
+.bottom-container{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.bottom-container p {
+	font-size: 4rem;
+	font-family: Quicksand;
+}
+
+.bottom-container img{
+	padding: 10px;
+}
